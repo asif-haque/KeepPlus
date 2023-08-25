@@ -6,15 +6,15 @@ import Header from "./Header";
 import NoteRendering from "./NoteRendering";
 
 export default function App() {
-  const [todos, setTodos] = useState(() => {
-    const localValue = localStorage.getItem("items");
-    if (localValue === null) return [];
-    return JSON.parse(localValue);
-  });
-  useEffect(() => {
-    localStorage.setItem("items", JSON.stringify(todos));
-  }, [todos]);
-  // const [todos, setTodos] = useState([]);
+  // const [todos, setTodos] = useState(() => {
+  //   const localValue = localStorage.getItem("items");
+  //   if (localValue === null) return [];
+  //   return JSON.parse(localValue);
+  // });
+  // useEffect(() => {
+  //   localStorage.setItem("items", JSON.stringify(todos));
+  // }, [todos]);
+  const [todos, setTodos] = useState([]);
   return (
     <>
       <Header />
