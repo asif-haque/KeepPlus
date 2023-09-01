@@ -1,6 +1,7 @@
-# Keep+
 "Likh leta hu, kahi UPSC me na aajaye..."
 
-A note taking app. Create, keep and delete your notes. This website is built using reactJS.
+# Keep+ - A note taking web app
 
-Site Link : https://keeplus.netlify.app/
+Create, keep and delete notes on the go. Local storage is used to keep track of the tasks. Tech stack- HTML, CSS, ReactJS, Material UI. 
+
+🔗Live at : https://keeplus.netlify.app/
